@@ -4,27 +4,27 @@
 export const siteData = {
   "title": "百香果的前端进阶",
   "description": "百香果的文档, vuepress 文档",
-  "base": "/DOCUMENTS/",
+  "base": "/",
   "headTags": [
     [
       "link",
       {
         "rel": "apple-touch-icon",
-        "href": "/DOCUMENTS/apple-touch-icon.png"
+        "href": "/apple-touch-icon.png"
       }
     ],
     [
       "link",
       {
         "rel": "icon",
-        "href": "/DOCUMENTS/favicon.ico"
+        "href": "/favicon.ico"
       }
     ],
     [
       "link",
       {
         "rel": "manifest",
-        "href": "/DOCUMENTS/manifest.json"
+        "href": "/manifest.json"
       }
     ],
     [
@@ -40,9 +40,74 @@ export const siteData = {
         "name": "google-site-verification",
         "content": "Ld_AEWr30siza2LmmZ12csitRGsSj9gqqEAch0UXkTc"
       }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "black"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "href": "/icons/apple-touch-icon-152x152.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "mask-icon",
+        "href": "/icons/safari-pinned-tab.svg",
+        "color": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileImage",
+        "content": "/icons/msapplication-icon-144x144.png"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileColor",
+        "content": "#000000"
+      }
     ]
   ],
   "pages": [
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "百香果的前端进阶",
+        "tagline": "文档, 博客",
+        "actionText": "进入笔记 →",
+        "actionLink": "/guide/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-4ea1e318",
+      "path": "/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于~~文档~~笔记",
+          "slug": "关于文档笔记"
+        }
+      ],
+      "lastUpdated": "2020年7月19日星期日下午12点49分"
+    },
     {
       "title": "首页",
       "frontmatter": {
@@ -251,29 +316,6 @@ export const siteData = {
       "lastUpdated": "2020年7月19日星期日下午1点52分"
     },
     {
-      "title": "数据写入",
-      "frontmatter": {
-        "title": "数据写入"
-      },
-      "regularPath": "/computer/data-write.html",
-      "relativePath": "computer/data-write.md",
-      "key": "v-0b15fbd8",
-      "path": "/computer/data-write.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "机械硬盘",
-          "slug": "机械硬盘"
-        },
-        {
-          "level": 2,
-          "title": "固态硬盘",
-          "slug": "固态硬盘"
-        }
-      ],
-      "lastUpdated": "2020年7月19日星期日下午1点52分"
-    },
-    {
       "title": "介绍",
       "frontmatter": {
         "title": "介绍"
@@ -401,26 +443,27 @@ export const siteData = {
       "lastUpdated": "2020年7月19日星期日下午1点52分"
     },
     {
-      "title": "Home",
+      "title": "数据写入",
       "frontmatter": {
-        "home": true,
-        "heroText": "百香果的前端进阶",
-        "tagline": "文档, 博客",
-        "actionText": "进入笔记 →",
-        "actionLink": "/guide/"
+        "title": "数据写入"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-4ea1e318",
-      "path": "/",
+      "regularPath": "/computer/data-write.html",
+      "relativePath": "computer/data-write.md",
+      "key": "v-0b15fbd8",
+      "path": "/computer/data-write.html",
       "headers": [
         {
           "level": 2,
-          "title": "关于~~文档~~笔记",
-          "slug": "关于文档笔记"
+          "title": "机械硬盘",
+          "slug": "机械硬盘"
+        },
+        {
+          "level": 2,
+          "title": "固态硬盘",
+          "slug": "固态硬盘"
         }
       ],
-      "lastUpdated": "2020年7月19日星期日下午12点49分"
+      "lastUpdated": "2020年7月19日星期日下午1点52分"
     }
   ],
   "themeConfig": {

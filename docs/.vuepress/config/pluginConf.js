@@ -4,6 +4,16 @@ const secretKeyConf = require('./secretKeyConf.js');
 moment.locale("zh-cn");
 
 module.exports = {
+  '@vssue/vuepress-plugin-vssue': {
+    // 设置 `platform` 而不是 `api`
+    platform: 'github-v4',
+
+    // 其他的 Vssue 配置
+    owner: 'TTTurbo',
+    repo: 'DOCUMENTS',
+    clientId: '9482cdf52b023678e118',
+    clientSecret: 'a6a4cfc9af56185f6b3e5c9d68dad9d2f4a1b9b8',
+  },
   '@vuepress/pwa': {
     serviceWorker: true,
     updatePopup: {
