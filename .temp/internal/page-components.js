@@ -3,10 +3,10 @@
  */
 export default {
   "v-4ea1e318": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\README.md"),
-  "v-85028392": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\computer\\README.md"),
-  "v-7fe20bb0": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\computer\\how-networks-work.md"),
+  "v-0b15fbd8": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\computer\\data-write.md"),
   "v-57c4d407": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\guide\\README.md"),
-  "v-256ecee2": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\guide\\docs-style.md"),
+  "v-85028392": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\computer\\README.md"),
   "v-cd6e9620": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\guide\\about-me.md"),
-  "v-0b15fbd8": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\computer\\data-write.md") 
+  "v-256ecee2": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\guide\\docs-style.md"),
+  "v-7fe20bb0": () => import("E:\\BLOGNNNNN\\DOCUMENTS\\docs\\computer\\how-networks-work.md") 
 }
