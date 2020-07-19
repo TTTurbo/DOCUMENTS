@@ -4,27 +4,27 @@
 export const siteData = {
   "title": "百香果的前端进阶",
   "description": "百香果的文档, vuepress 文档",
-  "base": "/",
+  "base": "/DOCUMENTS/",
   "headTags": [
     [
       "link",
       {
         "rel": "apple-touch-icon",
-        "href": "/apple-touch-icon.png"
+        "href": "/DOCUMENTS/apple-touch-icon.png"
       }
     ],
     [
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/DOCUMENTS/favicon.ico"
       }
     ],
     [
       "link",
       {
         "rel": "manifest",
-        "href": "/manifest.json"
+        "href": "/DOCUMENTS/manifest.json"
       }
     ],
     [
@@ -44,28 +44,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "百香果的前端进阶",
-        "tagline": "文档, 博客",
-        "actionText": "进入笔记 →",
-        "actionLink": "/guide/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-4ea1e318",
-      "path": "/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于~~文档~~笔记",
-          "slug": "关于文档笔记"
-        }
-      ],
-      "lastUpdated": "2020年7月19日星期日下午12点49分"
-    },
-    {
       "title": "首页",
       "frontmatter": {
         "title": "首页"
@@ -84,156 +62,6 @@ export const siteData = {
           "level": 2,
           "title": "参考资料",
           "slug": "参考资料"
-        }
-      ],
-      "lastUpdated": "2020年7月19日星期日下午1点52分"
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {
-        "title": "关于我"
-      },
-      "regularPath": "/guide/about-me.html",
-      "relativePath": "guide/about-me.md",
-      "key": "v-cd6e9620",
-      "path": "/guide/about-me.html",
-      "lastUpdated": "2020年7月19日星期日下午1点52分"
-    },
-    {
-      "title": "数据写入",
-      "frontmatter": {
-        "title": "数据写入"
-      },
-      "regularPath": "/computer/data-write.html",
-      "relativePath": "computer/data-write.md",
-      "key": "v-0b15fbd8",
-      "path": "/computer/data-write.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "机械硬盘",
-          "slug": "机械硬盘"
-        },
-        {
-          "level": 2,
-          "title": "固态硬盘",
-          "slug": "固态硬盘"
-        }
-      ],
-      "lastUpdated": "2020年7月19日星期日下午1点52分"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {
-        "title": "介绍"
-      },
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-57c4d407",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "写文档的目的 ?",
-          "slug": "写文档的目的"
-        },
-        {
-          "level": 2,
-          "title": "写文档的想法",
-          "slug": "写文档的想法"
-        }
-      ],
-      "lastUpdated": "2020年7月19日星期日下午1点52分"
-    },
-    {
-      "title": "文档风格",
-      "frontmatter": {
-        "title": "文档风格"
-      },
-      "regularPath": "/guide/docs-style.html",
-      "relativePath": "guide/docs-style.md",
-      "key": "v-256ecee2",
-      "path": "/guide/docs-style.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标点符号",
-          "slug": "标点符号"
-        },
-        {
-          "level": 3,
-          "title": "1. 顿号",
-          "slug": "_1-顿号"
-        },
-        {
-          "level": 3,
-          "title": "2. 分号",
-          "slug": "_2-分号"
-        },
-        {
-          "level": 3,
-          "title": "3. 逗号",
-          "slug": "_3-逗号"
-        },
-        {
-          "level": 3,
-          "title": "4. 句号",
-          "slug": "_4-句号"
-        },
-        {
-          "level": 3,
-          "title": "5. 冒号",
-          "slug": "_5-冒号"
-        },
-        {
-          "level": 2,
-          "title": "文档结构",
-          "slug": "文档结构"
-        },
-        {
-          "level": 3,
-          "title": "1. 文档命名",
-          "slug": "_1-文档命名"
-        },
-        {
-          "level": 3,
-          "title": "2. 文档标题",
-          "slug": "_2-文档标题"
-        },
-        {
-          "level": 2,
-          "title": "文本规范",
-          "slug": "文本规范"
-        },
-        {
-          "level": 3,
-          "title": "1. 行文风格",
-          "slug": "_1-行文风格"
-        },
-        {
-          "level": 3,
-          "title": "2. 段落",
-          "slug": "_2-段落"
-        },
-        {
-          "level": 3,
-          "title": "3. 语句",
-          "slug": "_3-语句"
-        },
-        {
-          "level": 3,
-          "title": "4. 文本",
-          "slug": "_4-文本"
-        },
-        {
-          "level": 2,
-          "title": "参考文章",
-          "slug": "参考文章"
         }
       ],
       "lastUpdated": "2020年7月19日星期日下午1点52分"
@@ -421,6 +249,178 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020年7月19日星期日下午1点52分"
+    },
+    {
+      "title": "数据写入",
+      "frontmatter": {
+        "title": "数据写入"
+      },
+      "regularPath": "/computer/data-write.html",
+      "relativePath": "computer/data-write.md",
+      "key": "v-0b15fbd8",
+      "path": "/computer/data-write.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "机械硬盘",
+          "slug": "机械硬盘"
+        },
+        {
+          "level": 2,
+          "title": "固态硬盘",
+          "slug": "固态硬盘"
+        }
+      ],
+      "lastUpdated": "2020年7月19日星期日下午1点52分"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍"
+      },
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-57c4d407",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "写文档的目的 ?",
+          "slug": "写文档的目的"
+        },
+        {
+          "level": 2,
+          "title": "写文档的想法",
+          "slug": "写文档的想法"
+        }
+      ],
+      "lastUpdated": "2020年7月19日星期日下午1点52分"
+    },
+    {
+      "title": "文档风格",
+      "frontmatter": {
+        "title": "文档风格"
+      },
+      "regularPath": "/guide/docs-style.html",
+      "relativePath": "guide/docs-style.md",
+      "key": "v-256ecee2",
+      "path": "/guide/docs-style.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标点符号",
+          "slug": "标点符号"
+        },
+        {
+          "level": 3,
+          "title": "1. 顿号",
+          "slug": "_1-顿号"
+        },
+        {
+          "level": 3,
+          "title": "2. 分号",
+          "slug": "_2-分号"
+        },
+        {
+          "level": 3,
+          "title": "3. 逗号",
+          "slug": "_3-逗号"
+        },
+        {
+          "level": 3,
+          "title": "4. 句号",
+          "slug": "_4-句号"
+        },
+        {
+          "level": 3,
+          "title": "5. 冒号",
+          "slug": "_5-冒号"
+        },
+        {
+          "level": 2,
+          "title": "文档结构",
+          "slug": "文档结构"
+        },
+        {
+          "level": 3,
+          "title": "1. 文档命名",
+          "slug": "_1-文档命名"
+        },
+        {
+          "level": 3,
+          "title": "2. 文档标题",
+          "slug": "_2-文档标题"
+        },
+        {
+          "level": 2,
+          "title": "文本规范",
+          "slug": "文本规范"
+        },
+        {
+          "level": 3,
+          "title": "1. 行文风格",
+          "slug": "_1-行文风格"
+        },
+        {
+          "level": 3,
+          "title": "2. 段落",
+          "slug": "_2-段落"
+        },
+        {
+          "level": 3,
+          "title": "3. 语句",
+          "slug": "_3-语句"
+        },
+        {
+          "level": 3,
+          "title": "4. 文本",
+          "slug": "_4-文本"
+        },
+        {
+          "level": 2,
+          "title": "参考文章",
+          "slug": "参考文章"
+        }
+      ],
+      "lastUpdated": "2020年7月19日星期日下午1点52分"
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {
+        "title": "关于我"
+      },
+      "regularPath": "/guide/about-me.html",
+      "relativePath": "guide/about-me.md",
+      "key": "v-cd6e9620",
+      "path": "/guide/about-me.html",
+      "lastUpdated": "2020年7月19日星期日下午1点52分"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "百香果的前端进阶",
+        "tagline": "文档, 博客",
+        "actionText": "进入笔记 →",
+        "actionLink": "/guide/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-4ea1e318",
+      "path": "/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于~~文档~~笔记",
+          "slug": "关于文档笔记"
+        }
+      ],
+      "lastUpdated": "2020年7月19日星期日下午12点49分"
     }
   ],
   "themeConfig": {
