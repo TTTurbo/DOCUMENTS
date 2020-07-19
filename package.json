@@ -1,0 +1,26 @@
+{
+  "name": "BLOGNNNNN",
+  "version": "1.0.0",
+  "description": "<!--[![Build Status](https://travis-ci.com/shanyuhai123/documents.svg?branch=master)](https://travis-ci.com/shanyuhai123/documents) [![GitHub forks](https://img.shields.io/github/forks/shanyuhai123/documents)](https://github.com/shanyuhai123/documents/network) [![GitHub stars](https://img.shields.io/github/stars/shanyuhai123/documents)](https://github.com/shanyuhai123/documents/stargazers) [![GitHub license](https://img.shields.io/github/license/shanyuhai123/documents)](https://github.com/shanyuhai123/documents/blob/master/LICENSE)-->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "cname": "bash cname.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTTurbo/documents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TTTurbo/documents/issues"
+  },
+  "homepage": "https://github.com/TTTurbo/documents#readme",
+  "directories": {
+    "doc": "docs"
+  }
+}
