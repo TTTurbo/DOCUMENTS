@@ -14,6 +14,17 @@ module.exports = {
     editLinkText: '编辑文档！',
     docsDir: 'docs',
     nav: navConf,
+    sidebar:{
+      "/computer/":[
+      'data-write',
+      'how-networks-work',
+      ],
+      "/guide/":[
+      'about-me',
+      'docs-style'
+      ]
+
+    },
     algolia: {
       appId: 'M698VCXCJN',
       apiKey: '8b552055fb68ffc808bfbd3f98a1dbe2',
