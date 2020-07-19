@@ -21,22 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-0b15fbd8",
-    path: "/computer/data-write.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0b15fbd8").then(next)
-    },
-  },
-  {
-    name: "v-7fe20bb0",
-    path: "/computer/how-networks-work.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7fe20bb0").then(next)
-    },
-  },
-  {
     name: "v-85028392",
     path: "/computer/",
     component: GlobalLayout,
@@ -57,6 +41,14 @@ export const routes = [
     },
   },
   {
+    name: "v-0b15fbd8",
+    path: "/computer/data-write.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0b15fbd8").then(next)
+    },
+  },
+  {
     name: "v-57c4d407",
     path: "/guide/",
     component: GlobalLayout,
@@ -74,6 +66,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-256ecee2").then(next)
+    },
+  },
+  {
+    name: "v-7fe20bb0",
+    path: "/computer/how-networks-work.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7fe20bb0").then(next)
     },
   },
   {
