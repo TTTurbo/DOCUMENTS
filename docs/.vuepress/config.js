@@ -3,7 +3,6 @@ const navConf = require('./config/navConf.js');
 const headConf = require('./config/headConf.js');
 
 module.exports = {
-  base:"/DOCUMENTS/",
   title: '百香果的前端进阶',
   description: '百香果的文档, vuepress 文档',
   head: headConf,
